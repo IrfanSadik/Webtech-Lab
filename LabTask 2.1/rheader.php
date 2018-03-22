@@ -1,6 +1,6 @@
 <fieldset>
     <legend><b>REGISTRATION</b></legend>
-	<form>
+	<form action="registration.php"method="post" enctype="multipart/form-data" >
 		<br/>
 		<table width="100%" cellpadding="0" cellspacing="0">
 			<tr>
@@ -45,9 +45,9 @@
 				<td colspan="3">
 					<fieldset>
 						<legend>Gender</legend>    
-						<input name="gender" type="radio">Male
-						<input name="gender" type="radio">Female
-						<input name="gender" type="radio">Other
+						<input name="gender" type="radio" value="Male">Male
+						<input name="gender" type="radio" value="Female">Female
+						<input name="gender" type="radio" value="Other">Other
 					</fieldset>
 				</td>
 				<td></td>

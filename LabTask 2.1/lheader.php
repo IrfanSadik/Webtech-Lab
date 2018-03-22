@@ -1,6 +1,6 @@
 <fieldset>
     <legend><b>LOGIN</b></legend>
-    <form>
+    <form action="login.php" method="post">
         <table>
             <tr>
                 <td>User Name</td>
